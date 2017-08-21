@@ -112,4 +112,7 @@ The current version is 3.2.
           <version>3.1</version>
       </dependency>
  ```     
-      
+
+
+mvn package
+mvn install:install-file -Dfile=target/t-digest-3.2-SNAPSHOT.jar -DpomFile=pom.xml      
